@@ -1,0 +1,95 @@
+.container {
+    width: 500px;
+    margin: 20px auto
+}
+
+.form {
+    padding: 20px;
+    background-color: #eee;
+    display: flex;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px
+}
+
+.input {
+    padding: 10px;
+    flex: 1;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px
+}
+
+.input:focus {
+    outline: none
+}
+
+.add {
+    padding: 10px;
+    margin-left: 10px;
+    background-color: #f44336;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px
+}
+
+.tasks {
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #eee;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px
+}
+
+.task {
+    padding: 10px;
+    background-color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px
+}
+
+.task:not(:last-child) {
+    margin-bottom: 15px
+}
+
+.task:hover {
+    background-color: #f7f7f7
+}
+
+.done {
+    opacity: 0.5
+}
+
+span {
+    padding: 2px 6px;
+    background-color: red;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px  ;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px
+}
